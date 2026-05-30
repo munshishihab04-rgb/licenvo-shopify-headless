@@ -1,17 +1,5 @@
-# Dependencies
 node_modules/
-
-# Build
-build/
 dist/
-
-# Env
 .env
-.env.local
-
-# IDE
-.idea/
-.vscode/
-
-# OS
+*.pem
 .DS_Store

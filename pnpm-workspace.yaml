@@ -28,6 +28,12 @@ catalog:
   tailwind-merge: ^3.3.1
   sonner: ^2.0.7
   wouter: ^3.3.5
+  '@replit/vite-plugin-cartographer': ^0.2.7
+  '@replit/vite-plugin-dev-banner': ^0.1.2
+  '@replit/vite-plugin-runtime-error-modal': ^0.0.3
+  '@types/node': ^22.0.0
+  '@types/react': ^19.0.0
+  '@types/react-dom': ^19.0.0
 
 overrides:
   esbuild: 0.27.3
