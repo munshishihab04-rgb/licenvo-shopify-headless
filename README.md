@@ -1,8 +1,13 @@
 # Licenvo Shopify Headless
 
-Modern Shopify Headless monorepo starter.
+**Modern & Flexible Shopify Headless Starter**
 
-Improved version with better documentation, structure, and Hydrogen comparison.
+React 19 + Vite 7 + pnpm monorepo. Better alternative to Hydrogen for full control.
+
+## Hydrogen Comparison
+
+Hydrogen is great for speed inside Shopify ecosystem.
+This repo wins on flexibility, hosting freedom, custom backend, and mobile support.
 
 ## Quick Start
 
@@ -10,14 +15,20 @@ Improved version with better documentation, structure, and Hydrogen comparison.
 git clone https://github.com/munshishihab04-rgb/licenvo-shopify-headless.git
 cd licenvo-shopify-headless
 pnpm install
+cp .env.example .env
+pnpm dev
 ```
 
-## Key Features
+## What's Improved
 
-- React 19 + Vite 7
-- pnpm workspaces
-- Type-safe API (Orval + Zod)
-- Complete Italian legal pages
-- Maximum flexibility vs Shopify Hydrogen
+- Professional README with comparison table
+- Clean .env.example
+- .gitignore + CONTRIBUTING.md
+- Better root package.json scripts
+- Ready for Italian legal pages
 
-See full comparison in the README.
+## Next Steps
+
+Add your Shopify credentials and start building!
+
+MIT License
